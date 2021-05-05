@@ -17,7 +17,18 @@ export default function Index() {
       <Head>
         <title>Plusma</title>
         <meta name="Description" content="The platform connects donors and seekers." />
-        <meta charset="utf-8"></meta>
+        <meta charSet="utf-8"></meta>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-YG2HZGLRBD"></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-YG2HZGLRBD');
+        `,
+          }}
+        />
       </Head>
       <header>
         <Disclosure as="nav" className="bg-gradient-to-r from-pink-400 via-pink-500 to-red-500">
@@ -31,7 +42,9 @@ export default function Index() {
                     </div>
                     <div className="flex-shrink-0">
                       <link href="#" />
-                      <a className="text-lg md:text-5xl font-extrabold ml-3 text-white capitalize text-3xl">Plusma</a>
+                      <a className="text-lg md:text-5xl font-extrabold ml-3 text-white capitalize text-3xl">
+                        Plusma
+                      </a>
                     </div>
 
                     <div className="hidden md:block">
@@ -160,7 +173,9 @@ export default function Index() {
                 </svg>
               </div>
               <div className="px-12 py-2 text-black font-bold uppercase">
-                <div className="font-bold text-xl items-center justify-center uppercase">Plasma</div>
+                <div className="font-bold text-xl items-center justify-center uppercase">
+                  Plasma
+                </div>
               </div>
               <div className="border-t-4"></div>
               <div className="mt-8">
