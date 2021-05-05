@@ -17,6 +17,7 @@ export default function Index() {
       <Head>
         <title>Plusma</title>
         <meta name="Description" content="The platform connects donors and seekers." />
+        <meta charset="utf-8"></meta>
       </Head>
       <header>
         <Disclosure as="nav" className="bg-gradient-to-r from-pink-400 via-pink-500 to-red-500">
