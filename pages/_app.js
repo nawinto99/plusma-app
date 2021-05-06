@@ -7,9 +7,10 @@ function MyApp({ Component, pageProps }) {
   return (
     <Layout>
       <Head>
+      <meta charSet="utf-8"></meta>
         <title>Plusma</title>
         <meta name="Description" content="The platform connects donors and seekers." />
-        <meta charSet="utf-8"></meta>
+        <meta name="author" content="Naveen Thurimerla"></meta>
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-YG2HZGLRBD"></script>
         <script
           dangerouslySetInnerHTML={{
