@@ -98,7 +98,7 @@ export default function Covid(props) {
   )
 }
 
-export async function getStaticProps() {
+export async function getServerSideProps() {
   const res = await fetch(`https://api.covid19india.org/data.json`)
   const data = await res.json()
 
