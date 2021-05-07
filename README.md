@@ -2,7 +2,6 @@
 [![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/nawinto99/plusma-app/blob/main/LICENSE) 
 [![Issues](https://img.shields.io/github/issues/nawinto99/plusma-app)](https://github.com/nawinto99/plusma-app/issues)
 ![Issues](https://img.shields.io/github/checks-status/nawinto99/plusma-app/main)
-![Known Vulnerabilities](https://snyk.io/test/github/nawinto99/plusma-app/badge.svg)
 [![Total alerts](https://img.shields.io/lgtm/alerts/g/nawinto99/plusma-app.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/nawinto99/plusma-app/alerts/)
 [![Language grade: JavaScript](https://img.shields.io/lgtm/grade/javascript/g/nawinto99/plusma-app.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/nawinto99/plusma-app/context:javascript)
 
