@@ -3,7 +3,8 @@
 [![Issues](https://img.shields.io/github/issues/nawinto99/plusma-app)](https://github.com/nawinto99/plusma-app/issues)
 ![Issues](https://img.shields.io/github/checks-status/nawinto99/plusma-app/main)
 ![vulnerabilities](https://img.shields.io/snyk/vulnerabilities/github/nawinto99/plusma-app)
-![lgtm](https://img.shields.io/lgtm/alerts/github/nawinto99/plusma-app)
+[![Total alerts](https://img.shields.io/lgtm/alerts/g/nawinto99/plusma-app.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/nawinto99/plusma-app/alerts/)
+[![Language grade: JavaScript](https://img.shields.io/lgtm/grade/javascript/g/nawinto99/plusma-app.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/nawinto99/plusma-app/context:javascript)
 
 # Plusma
 
