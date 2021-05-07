@@ -7,12 +7,14 @@ module.exports = {
     extend: {
       colors: {
         cyan: colors.cyan,
-        white: colors.white
+        white: colors.white,
       },
     },
   },
   variants: {
     extend: {},
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/forms'),
+  ],
 }
