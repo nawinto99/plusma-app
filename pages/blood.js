@@ -5,7 +5,7 @@ export default function BloodDonor() {
         <div className="mt-10 sm:mt-0">
           <div className="md:grid">
             <div className="mt-5 md:mt-0 md:col-span-1">
-              <form action="#" method="POST">
+              <form action="/" method="POST">
                 <div className="shadow overflow-hidden sm:rounded-md">
                   <div className="px-4 py-5 bg-white sm:p-6">
                     <div className="grid grid-cols-6 gap-6">
@@ -68,7 +68,7 @@ export default function BloodDonor() {
                           type="text"
                           name="mobile_number"
                           id="mobile_number"
-                          autoComplete="number"
+                          autoComplete="tel"
                           className="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md"
                         />
                       </div>
