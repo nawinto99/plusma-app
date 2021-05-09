@@ -1,3 +1,5 @@
+import Image from 'next/image'
+
 const blood_donors = [
   {
     first_name: 'Naveen',
@@ -17,7 +19,7 @@ export default function BloodSeeker() {
     <div className="flex flex-col">
       <div className="-my-2 overflow-x-auto sm:-mx-6 lg:-mx-8">
         <div className="py-2 align-middle inline-block min-w-full sm:px-6 lg:px-8">
-          <div className="shadow overflow-hidden border-b border-gray-200 sm:rounded-lg">
+          <div className="shadow overflow-hidden border-b border-gray-200 sm:rounded-3xl rounded-3xl">
             <table className="min-w-full divide-y divide-gray-200">
               <thead className="bg-gray-50">
                 <tr>
@@ -52,8 +54,8 @@ export default function BloodSeeker() {
                   <tr key={blood_donors.email_id}>
                     <td className="px-6 py-4 whitespace-nowrap">
                       <div className="flex items-center">
-                        <div className="flex-shrink-0 h-8 w-8">
-                          <img className="h-8 w-8 rounded-full" src={blood_donors.image} alt="" />
+                        <div className="flex-shrink-0">
+                          <Image className="rounded-full" src={blood_donors.image} alt="logo" height={30} width={30} />
                         </div>
                         <div className="ml-4">
                           <div className="text-sm font-medium text-gray-900">
