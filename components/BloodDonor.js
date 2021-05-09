@@ -113,7 +113,7 @@ export function BloodDonor(props) {
           <div className="md:grid">
             <div className="md:mt-0 md:col-span-1">
               <form onSubmit={handleSubmit}>
-                <div className="shadow overflow-hidden rounded-3xl">
+                <div className="shadow overflow-hidden rounded-lg">
                   <div className="px-4 py-5 bg-white sm:p-6">
                     <div className="grid grid-cols-6 gap-6">
                       <div className="col-span-6 sm:col-span-3">
