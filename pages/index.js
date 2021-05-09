@@ -1,4 +1,9 @@
+import {BloodDonorIndex, BloodSeekerIndex} from "@/pages/blood"
+
+
 export default function Index() {
+  
+  
   return (
     <div className="flex items-center justify-center">
       <div className="grid grid-cols-1 gap-2 sm:grid-cols-4 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2">
@@ -25,14 +30,16 @@ export default function Index() {
           </div>
           <div className="border-t-4"></div>
           <div className="mt-8">
-            <a href="blood">
-              <button
+          <a href="blood" onClick={() => { BloodSeekerIndex(); }}> 
+          <button
                 className="bg-pink-400 text-white active:bg-pink-600 font-bold uppercase text-sm px-14 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
                 type="button"
               >
                 <span>Donor</span>
               </button>
-            </a>
+        </a>
+            
+            
 
             <button
               className="bg-blue-400 text-white active:bg-blue-600 font-bold uppercase text-sm px-14 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
