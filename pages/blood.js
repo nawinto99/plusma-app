@@ -1,7 +1,6 @@
 import { BloodDonor } from '@/components/BloodDonor'
 import { BloodSeeker } from '@/components/BloodSeeker'
 
-
 export default function BloodDonorIndex() {
   return (
     <>
@@ -9,7 +8,6 @@ export default function BloodDonorIndex() {
     </>
   )
 }
-
 
 export function BloodSeekerIndex() {
   return (
