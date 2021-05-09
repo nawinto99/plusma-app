@@ -5,7 +5,7 @@ function getBloodDonorEntries(data) {
   return data ? data.blood_donor_entries.data.reverse() : []
 }
 
-export default function Hero(props) {
+export default function BloodDonor(props) {
   const { data, errorMessage } = useBloodDonorEntries()
   const [BloodDonorEntries, setBloodDonorEntries] = useState([])
   const [firstName, setfirstName] = useState('')
@@ -138,7 +138,7 @@ export default function Hero(props) {
                           htmlFor="last_name"
                           className="block text-sm font-medium text-gray-700"
                         >
-                          Last Lame
+                          Last Name
                         </label>
                         <input
                           type="text"
@@ -151,7 +151,7 @@ export default function Hero(props) {
                         />
                       </div>
 
-                      <div className="col-span-6 sm:col-span-3 lg:col-span-3">
+                      <div className="col-span-6 sm:col-span-3 lg:col-span-6">
                         <label
                           htmlFor="blood_group"
                           className="block text-sm font-medium text-gray-700"
@@ -166,6 +166,7 @@ export default function Hero(props) {
                           value={bloodGroup}
                           className="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md"
                         >
+                          <option></option>
                           <option> O+ </option>
                           <option> O- </option>
                           <option> A+ </option>
@@ -225,6 +226,7 @@ export default function Hero(props) {
                           value={state}
                           className="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md"
                         >
+                          <option></option>
                           <option> Andaman and Nicobar Islands</option>
                           <option> Andhra Pradesh </option>
                           <option> Arunachal Pradesh </option>
@@ -282,7 +284,7 @@ export default function Hero(props) {
                   <div className="px-4 py-3 bg-white text-center sm:px-6">
                     <button
                       type="submit"
-                      className="inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-green-600 hover:bg-pink-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-pink-500"
+                      className="inline-flex justify-center py-2 px-12 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-green-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
                     >
                       Save
                     </button>
