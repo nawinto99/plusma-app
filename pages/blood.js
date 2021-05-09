@@ -109,11 +109,6 @@ export default function BloodDonor(props) {
     <>
       <div className="flex items-center justify-center">
         <div className="sm:mt-0">
-          <h1 className="block text-center font-medium text-gray-700 text-xl">
-            Please fill the donor form
-          </h1>
-          <div></div>
-
           <div className="md:grid">
             <div className="md:mt-0 md:col-span-1">
               <form onSubmit={handleSubmit}>
