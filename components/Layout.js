@@ -6,7 +6,7 @@ export default function Layout(props) {
     <div className="flex flex-col h-screen">
       <Header />
 
-      <main className="p-4 flex-grow bg-gradient-to-r from-green-400 to-blue-500">
+      <main className="p-2 flex-grow bg-gradient-to-r from-green-400 to-blue-500">
         {props.children}
       </main>
 
