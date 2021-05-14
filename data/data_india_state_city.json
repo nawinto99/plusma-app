@@ -1,0 +1,178 @@
+[
+  { "stateID": 1, "stateName": "Andaman and Nicobar Islands",
+    "cityList": [
+      { "cityID": 1, "cityName": "Port Blair" }] },
+  {
+    "stateID": 2,
+    "stateName": "Andhra Pradesh",
+    "cityList": [
+      { "cityID": 1, "cityName": "Adoni" },
+      { "cityID": 2, "cityName": "Anantapuram" },
+      { "cityID": 3, "cityName": "Bhimavaram" },
+      { "cityID": 4, "cityName": "Chilakaluripeta" },
+      { "cityID": 5, "cityName": "Chittoor" },
+      { "cityID": 6, "cityName": "Dharmavaram" },
+      { "cityID": 7, "cityName": "Eluru" },
+      { "cityID": 8, "cityName": "Gudivada" },
+      { "cityID": 9, "cityName": "Guntakal" },
+      { "cityID": 10, "cityName": "Guntur" },
+      { "cityID": 11, "cityName": "Hindupur" },
+      { "cityID": 12, "cityName": "Kadapa" },
+      { "cityID": 13, "cityName": "Kakinada" },
+      { "cityID": 14, "cityName": "Kurnool" },
+      { "cityID": 15, "cityName": "Machilipatnam" },
+      { "cityID": 16, "cityName": "Madanapalle" },
+      { "cityID": 17, "cityName": "Mangalagiri" },
+      { "cityID": 18, "cityName": "Nandyal" },
+      { "cityID": 19, "cityName": "Narasaraopet" },
+      { "cityID": 20, "cityName": "Nellore" },
+      { "cityID": 21, "cityName": "Ongole" },
+      { "cityID": 22, "cityName": "Proddatur" },
+      { "cityID": 23, "cityName": "Rajamahendravaram" },
+      { "cityID": 24, "cityName": "Srikakulam" },
+      { "cityID": 25, "cityName": "Tadepalligudem" },
+      { "cityID": 26, "cityName": "Tadipatri" },
+      { "cityID": 27, "cityName": "Tenali" },
+      { "cityID": 28, "cityName": "Tirupati" },
+      { "cityID": 29, "cityName": "Vijayawada" },
+      { "cityID": 30, "cityName": "Visakhapatnam" },
+      { "cityID": 31, "cityName": "Vizianagaram" }
+    ]
+  },
+  {
+    "stateID": 3,
+    "stateName": "Arunachal Pradesh"
+  },
+  {
+    "stateID": 4,
+    "stateName": "Assam"
+  },
+  {
+    "stateID": 5,
+    "stateName": "Bihar"
+  },
+  {
+    "stateID": 6,
+    "stateName": "Chandigarh"
+  },
+  {
+    "stateID": 7,
+    "stateName": "Chhattisgarh"
+  },
+  {
+    "stateID": 8,
+    "stateName": "Dadra and Nagar Haveli"
+  },
+  {
+    "stateID": 9,
+    "stateName": "Daman and Diu"
+  },
+  {
+    "stateID": 10,
+    "stateName": "Delhi"
+  },
+  {
+    "stateID": 11,
+    "stateName": "Goa"
+  },
+  {
+    "stateID": 12,
+    "stateName": "Gujarat"
+  },
+  {
+    "stateID": 13,
+    "stateName": "Haryana"
+  },
+  {
+    "stateID": 14,
+    "stateName": "Himachal Pradesh"
+  },
+  {
+    "stateID": 15,
+    "stateName": "Jammu and Kashmir"
+  },
+  {
+    "stateID": 16,
+    "stateName": "Jharkhand"
+  },
+  {
+    "stateID": 17,
+    "stateName": "Karnataka"
+  },
+  {
+    "stateID": 18,
+    "stateName": "Kerala"
+  },
+  {
+    "stateID": 19,
+    "stateName": "Lakshadweep"
+  },
+  {
+    "stateID": 20,
+    "stateName": "Madhya Pradesh"
+  },
+  {
+    "stateID": 21,
+    "stateName": "Maharashtra"
+  },
+  {
+    "stateID": 22,
+    "stateName": "Manipur"
+  },
+  {
+    "stateID": 23,
+    "stateName": "Meghalaya"
+  },
+  {
+    "stateID": 24,
+    "stateName": "Mizoram"
+  },
+  {
+    "stateID": 25,
+    "stateName": "Nagaland"
+  },
+  {
+    "stateID": 26,
+    "stateName": "Odisha"
+  },
+  {
+    "stateID": 27,
+    "stateName": "Puducherry"
+  },
+  {
+    "stateID": 28,
+    "stateName": "Punjab"
+  },
+  {
+    "stateID": 29,
+    "stateName": "Rajasthan"
+  },
+  {
+    "stateID": 30,
+    "stateName": "Sikkim"
+  },
+  {
+    "stateID": 31,
+    "stateName": "Tamil Nadu"
+  },
+  {
+    "stateID": 32,
+    "stateName": "Telangana"
+  },
+  {
+    "stateID": 33,
+    "stateName": "Tripura"
+  },
+  {
+    "stateID": 34,
+    "stateName": "Uttar Pradesh"
+  },
+  {
+    "stateID": 35,
+    "stateName": "Uttarakhand"
+  },
+  {
+    "stateID": 36,
+    "stateName": "West Bengal"
+  }
+]
