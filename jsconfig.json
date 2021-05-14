@@ -6,6 +6,7 @@
       "@/pages/*": ["pages/*"],
       "@/graphql/*": ["graphql/*"],
       "@/lib/*": ["lib/*"],
+      "@/data/*": ["data/*"],
     }
   }
 }
