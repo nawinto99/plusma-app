@@ -1,7 +1,6 @@
 const dataStates = [
   { stateID: 1, stateName: 'Andaman and Nicobar Islands' },
-  {
-    stateID: 2,
+  { stateID: 2,
     stateName: 'Andhra Pradesh',
   },
   {
